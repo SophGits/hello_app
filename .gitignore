@@ -14,3 +14,6 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+#Prevent conflicts between Spring and Git when using Guard
+/spring/*.pid
